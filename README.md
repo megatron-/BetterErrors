@@ -16,4 +16,4 @@ Command line arguments:
 -o or -O filename : Dumps all compiler output to filename 
 
 
-E-mail me: megatron.books@gmail.com
+E-mail me: megatron_1337@hotmail.com
