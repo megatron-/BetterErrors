@@ -44,11 +44,14 @@ int main(int argc, char* argv[])
 	
 	while(std::getline(std::cin, line))
 	{
-		if(line.find("within this") != std::string::npos) continue;
 		if(line.find("error:") != std::string::npos)
 		{
-			std::cout << line << "\n";
-			Number++;
+			if(line.find("within this") != std::string::npos) std::cout << line << "\n\n";
+			else
+			{
+				std::cout << line << "\n";
+				Number++;
+			}
 		}
 		if(line.find(".text+") != std::string::npos)
 		{
