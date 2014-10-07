@@ -9,4 +9,4 @@ Command line arguments:
 
 -f or -F : Outputs which function (if applicable)
 -w or -W : Outputs warnings
--o or -O filename : Dumps all compiler output to filename
+-o or -O filename : Dumps all compiler output to filename 
