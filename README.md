@@ -1,11 +1,13 @@
 BetterErrors
 ============
 
-Read errors easier from failed compilations
+Read compiler messages easier from failed compilations ( Uses Linux piping )
 
-Usage: g++ ... 2> &1 | BetterErrors
+Usage: compiler 2> &1 | BetterErrors
+
 
 Command line arguments:
+
 
 -f or -F : Outputs which function (if applicable)
 
