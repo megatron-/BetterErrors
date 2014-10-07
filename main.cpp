@@ -50,6 +50,11 @@ int main(int argc, char* argv[])
 			std::cout << line << "\n";
 			Number++;
 		}
+		if(line.find(".text+") != std::string::npos)
+		{
+			std::cout << line << "\n";
+			Number++;
+		}
 		if(line.find("warning:") != std::string::npos && Warnings) std::cout << line << "\n";
 		if(line.find("In function") != std::string::npos && Functions) std::cout << line << "\n\n";
 		if(Output) ofs << line << "\n";
