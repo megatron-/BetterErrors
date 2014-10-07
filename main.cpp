@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout << "\nErrorParser Version 1.3 - Developed by megatron_\n\n";
+	std::cout << "\nBetterErrors Version 1.3 - Developed by megatron_\n\n";
 
 	bool Warnings, Functions, Output;
 	Warnings = Functions = Output = 0;
